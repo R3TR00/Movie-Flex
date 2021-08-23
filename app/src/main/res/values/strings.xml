@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Movie Flex</string>
+    <string name="film_name">Film Name</string>
+    <string name="img_description">film Image</string>
+    <string name="search_hint">Search</string>
+    <string name="upcoming_movies">Upcoming movies</string>
+</resources>
