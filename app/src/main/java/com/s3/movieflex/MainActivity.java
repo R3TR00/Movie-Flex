@@ -22,17 +22,17 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         adapter = new RecyclerViewAdapter(this, film);
-        recyclerview1 = findViewById(R.id.view);
+        recyclerview1 = findViewById(R.id.upcoming_view);
 
         recyclerview1.setLayoutManager(new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false));
         recyclerview1.setAdapter(adapter);
-        film.add(new model("world war z goddess", R.drawable.first));
-        film.add(new model("world war 3", R.drawable.second));
-        film.add(new model("world war 3", R.drawable.third));
-        film.add(new model("world war 3", R.drawable.fourth));
-        film.add(new model("world war 3", R.drawable.fifth));
-        film.add(new model("world war 3", R.drawable.seven));
-        film.add(new model("world war 3", R.drawable.eight));
+        film.add(new model("Blade Runner 2049", R.drawable.first));
+        film.add(new model("Thor Ragnarok", R.drawable.second));
+        film.add(new model("The Expendables", R.drawable.third));
+        film.add(new model("Black Widow", R.drawable.fourth));
+        film.add(new model("The Hunger Games Mockingjay", R.drawable.fifth));
+        film.add(new model("Dolittle", R.drawable.seven));
+        film.add(new model("Alpha", R.drawable.eight));
         ///11111
         recyclerview2 = findViewById(R.id.cat1);
         recyclerview2.setLayoutManager(new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false));
